@@ -1,17 +1,16 @@
 // import React from 'react';
-
 import './Medicines.css'
-import arrow_btn from '../../assets/arrow_btn.png'
-import play_icon from '../../assets/play_icon.png'
-import pause_icon from '../../assets/pause_icon.png'
+import arrow_btn from '../../assets/arrow.png';
+import play_icon from '../../assets/play.png';
+import pause_icon from '../../assets/pause.png';
 
 
 const Medicines = ({medicineData,setMedicineCount,MeicineCount,SetPlaystatus,Playstatus}) => {
   return (
     <div className='medicine'>
       <div className="medicine-text">
-        <P>{medicineData.text1}</P>
-        <P>{medicineData.text2}</P>
+        <p>{medicineData.text1}</p>
+        <p>{medicineData.text2}</p>
       </div>
       <div className="medicine-explore">
         <p>Meet our services</p>
