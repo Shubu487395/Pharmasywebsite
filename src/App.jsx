@@ -1,10 +1,9 @@
 import React, {useEffect, useState } from 'react'
 import './App.css'
-// import LoginSignup from "./Components/LogInSignup/LoginSignup";
-// import NavBar from "./Components/NavBar/NavBar";
-import Background  from './Components/background/Background';
-import Container from './Components/container';
-
+import Container from './Components/background/container';
+import NavBar from './Components/NavBar/NavBar'; 
+import LoginSignup from './Components/LogInSignup/LoginSignup';
+import Medicines from './Components/Medicines/Medicines';
 
 const App = ()=> {
 
@@ -25,16 +24,15 @@ const App = ()=> {
   return (
     <>
       <div>
-        < Container></Container>
-        <Background Playstatus={Playstatus} MedicineCount={MedicineCount} />
-      { /* <NavBar />
-       <LoginSignup />
-       <Meicine
+        <NavBar></NavBar>
+        <Container Playstatus={Playstatus} MedicineCount={MedicineCount}></Container>
+        <LoginSignup></LoginSignup>
+        <Medicines
         SetPlaystatus={SetPlaystatus}
         medicineData={medicineData[MedicineCount]}
         MedicineCount={MedicineCount}
         setMedicineCount={setMedicineCount}
-        Playstatus={Playstatus} /> */}
+        Playstatus={Playstatus} /> 
       </div>
     </>
   )

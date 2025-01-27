@@ -1,9 +1,10 @@
 import React from 'react';
-import video1 from '../assets/Video1.mp4';
-import image1 from '../assets/Pharmasmart 1.jpg';
-import image2 from '../assets/image2.png';
-import image3 from '../assets/image3.png';
-import image4 from '../assets/image4.png';
+import video1 from '../../assets/Video1.mp4';
+import image1 from '../../assets/Pharmasmart 1.jpg';
+import image2 from '../../assets/Pharmasmart 2.jpg';
+import image3 from '../../assets/Pharmasmart 3.jpg';
+import image4 from '../../assets/Pharmasmart 4.jpg';
+import image5 from '../../assets/Pharmasmart 5.jpg';
 
 export default function container( { Playstatus, MeicineCount }) {
     if (Playstatus) {
